@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-gem 'bootstrap-sass', '2.1'
+gem 'bootstrap-sass', '2.1' #for custom css
 gem 'pg', '0.12.2' #postgres
 gem 'bcrypt-ruby', '3.0.1' #for encrypting passwords
 
@@ -28,7 +28,8 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '1.1.2' #for automated UI tests
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails', '4.1.0' #for creating factories to be used in tests.
 end
