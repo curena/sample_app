@@ -32,4 +32,6 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '4.1.0' #for creating factories to be used in tests.
+  gem 'cucumber-rails', '1.2.1', :require => false #for natural-language tests and behavior-driven development
+  gem 'database_cleaner', '0.7.0'
 end
